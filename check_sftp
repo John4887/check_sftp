@@ -11,7 +11,7 @@ SFTP_PORT=22
 
 # Script usage
 usage() {
-    echo "Usage: $0 -P <partition> -d <disk_usage_threshold> -m <memory_usage_threshold> -i <check_interval> -p <sftp_port>"
+    echo "Usage: $0 -P <partition> -d <disk_usage_threshold> -i <check_interval> -p <sftp_port>"
     echo "Options:"
     echo "  -P <partition>                Partition to monitor (default: /)"
     echo "  -d <disk_usage_threshold>     Disk usage alert threshold in percent (default: 85)"
