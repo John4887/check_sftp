@@ -12,3 +12,6 @@ Use it like this:
 ```shell
 ./check_sftp -P <partition> -d <disk_usage_threshold> -i <check_interval> -p <sftp_port>
 ```
+Examples of status:
+![alt text](https://github.com/John4887/check_sftp/blob/main/check-sftp_sample1.png)
+![alt text](https://github.com/John4887/check_sftp/blob/main/check-sftp_sample2.png)
