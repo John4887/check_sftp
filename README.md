@@ -9,10 +9,20 @@ Functionalities :
 
 ### Setup
 
-To install this script, just put it in the plugins folder of the NCPA agent of target server and enable bash support in the NCPA config file. For this, you have to add the .bash extension management (Yes, it's needed, despite #!/bin/bash at the beginning of the script, NCPA will by default use sh :)). To add this, just go the "Extensions for plugins" section under "Linux / Mac OS X" and write this line for example after .sh:
+To install this script, just put it in the plugins folder of the NCPA agent of target server and enable bash support in the NCPA config file. For this, you have to add the .bash extension management (Yes, it's needed, despite #!/bin/bash at the beginning of the script, NCPA will by default use sh :)). To add this, just go to the "Extensions for plugins" section under "Linux / Mac OS X" and write this line for example after .sh:
 ```text
 .bash = /bin/bash $plugin_name $plugin_args
 ```
+
+Save the file and restart NCPA agent:
+
+```shell
+sudo service ncpa restart
+# Or... If you prefer...
+sudo systemctl restart ncpa
+```
+
+You're done.
 
 Please keep in mind the NCPA agent is needed of course (see here for installation: https://www.nagios.org/ncpa/#downloads).
 
