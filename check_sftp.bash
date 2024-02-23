@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Script version
-SCRIPT_VERSION="check_sftp - John Gonzalez - v1.1.0"
+SCRIPT_VERSION="check_sftp - John Gonzalez - v1.2.0"
 
 # Default variables
 PARTITION="/"
