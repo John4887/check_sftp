@@ -9,7 +9,11 @@ Functionalities :
 
 ### Setup
 
-To install this script, just put it in the plugins folder of the NCPA agent of target server.
+To install this script, just put it in the plugins folder of the NCPA agent of target server and enable bash support in the NCPA config file. For this, you have to add the .bash extension management (Yes, it's needed, despite #!/bin/bash at the beginning of the script, NCPA will by default use sh :)). To add this, just go the "Extensions for plugins" section under "Linux / Mac OS X" and write this line for example after .sh:
+```text
+.bash = /bin/bash $plugin_name $plugin_args
+```
+
 Please keep in mind the NCPA agent is needed of course (see here for installation: https://www.nagios.org/ncpa/#downloads).
 
 > If you want to adapt the script to your own monitoring solution or to a cron job (very easy), I will not explain it but it's totally possible. This plugin is published with a public license (as all other plugins and scripts here), so feel free to fork or use it in your own scripts or programs!
