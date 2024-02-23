@@ -9,7 +9,7 @@ Functionalities :
 
 ### Setup
 
-To install this script, you just have to execute the install.sh file with admin rights. It will setup the script and all necessaries actions needed to get the plugin working.
+To install this script, just put it in the plugins folder of the NCPA agent of target server.
 Please keep in mind the NCPA agent is needed of course (see here for installation: https://www.nagios.org/ncpa/#downloads).
 
 > If you want to adapt the script to your own monitoring solution or to a cron job (very easy), I will not explain it but it's totally possible. This plugin is published with a public license (as all other plugins and scripts here), so feel free to fork or use it in your own scripts or programs!
